@@ -11,6 +11,8 @@ import java.io.IOException;
 import repository.Repository;
 import service.*;
 
+
+
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
@@ -19,8 +21,9 @@ public class Main extends Application {
         Repository repo = new Repository();
         Service service = new Service(repo);
         Controller controller = new Controller(service);
+        controller.initialize();
         fxmlLoader.setController(controller);
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();

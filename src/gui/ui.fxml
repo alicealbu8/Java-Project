@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="listView" layoutX="65.0" layoutY="100.0" onMouseClicked="#ListClicked" prefHeight="200.0" prefWidth="469.0" />
+      <ComboBox fx:id="comboBox" layoutX="24.0" layoutY="46.0" onAction="#seeAfterCombo" prefWidth="150.0" />
+      <TextField fx:id="textField" layoutX="215.0" layoutY="46.0" onAction="#listViewClicked" />
+      <TextArea fx:id="textArea" layoutX="418.0" layoutY="35.0" prefHeight="48.0" prefWidth="115.0" />
+      <TextField fx:id="t1" layoutX="46.0" layoutY="335.0" onAction="#Txt" />
+   </children>
 </AnchorPane>
