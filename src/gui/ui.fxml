@@ -14,5 +14,6 @@
       <TextField fx:id="textField" layoutX="215.0" layoutY="46.0" onAction="#listViewClicked" />
       <TextArea fx:id="textArea" layoutX="418.0" layoutY="35.0" prefHeight="48.0" prefWidth="115.0" />
       <TextField fx:id="t1" layoutX="46.0" layoutY="335.0" onAction="#Txt" />
+      <TextField fx:id="h" layoutX="246.0" layoutY="335.0" />
    </children>
 </AnchorPane>

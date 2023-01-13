@@ -22,6 +22,8 @@ public class Controller {
     private TextArea textArea;
     @FXML
     private TextField t1;
+    @FXML
+    private TextField h;
 
     @FXML
     private TextField textField;
@@ -120,5 +122,13 @@ public class Controller {
     @FXML
     void Txt(ActionEvent event) {
 
+        String text = t1.getText();
+        int TotalHour = 0;
+        for(weather w:service.getAll())
+            if(w.getDescription()!=null)
+                if(w.getDescription().contains(text))
+                    TotalHour=TotalHour+(w.getEndHour()-w.getStartHour());
+        System.out.println(TotalHour);
+        h.setText(String.valueOf(TotalHour));
     }
 }

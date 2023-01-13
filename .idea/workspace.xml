@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf2b46b-0523-4850-8fc7-5ec380c112f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_db.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_db.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1.iml" afterDir="false" />
+    <list default="true" id="ebf2b46b-0523-4850-8fc7-5ec380c112f5" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/src/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/ui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ui.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671487791513</updated>
-      <workItem from="1673376405301" duration="9243000" />
+      <workItem from="1673376405301" duration="9597000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1673593412124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673593412125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
